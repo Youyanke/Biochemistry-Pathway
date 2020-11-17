@@ -1,8 +1,8 @@
 # Biochemistry Metabolism Pathway
 
-Inspired by metro map
-
 ### 一、总述
+
+Inspired by metro map
 
 1. 图由总图、详细反应分图、物质wiki（设想中）组成。
 
@@ -54,17 +54,37 @@ Inspired by metro map
 
  
 
-三、分图格式
+### 三、分图格式
 
-1. 反应示碳架变化、Regulation等信息
+1. 反应示碳架变化，Regulation，Transport的信息
 
-2. 先画完学过的反应，有时间则卷（e.g. Heme合成）
+2. Organelle：
 
-3. 反应节点的表示方式：大圆角矩形，英文名+结构式
+   * Cytosol：White (Default)
+   * Mitochondrium: Orange
+   * Chloroplast: Green
+   * Nucleus: Blue
+   * Blood: Red
 
-4. 变化的基团考虑高亮表示（如教科书里）
+3. 反应节点：
+
+   * 大圆角矩形（见模板）
+   * 名字：Helvetica;18
+
+   * 结构式：由ChemDraw绘图（键线式），端点示分子（如甲基）；记得Clear up
+
+4. 箭头：
+
+   * 不可逆反应：2pt, 箭头
+   * 可逆反应：1pt，双鱼钩箭头
+   * 不确定反应及转运：1pt，箭头
+   * 
 
 5. 小分子考虑共用（如NADH，ATP，见Figure 16-7）
+
+6. 先画完学过的反应，有时间则卷（e.g. Heme合成）
+
+7. 变化的基团考虑高亮表示（如教科书里）
 
  
 
